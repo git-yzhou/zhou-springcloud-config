@@ -9,7 +9,7 @@ spring:
   rabbitmq:
     host: 106.12.197.38
     port: 5672
-    #virtual-host: my_vhost
+    virtual-host: my_vhost
     username: zhou
     password: 644721
 management:
