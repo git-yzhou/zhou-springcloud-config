@@ -13,5 +13,7 @@ spring:
     username: zhou
     password: 644721
 management:
-  security:
-    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
