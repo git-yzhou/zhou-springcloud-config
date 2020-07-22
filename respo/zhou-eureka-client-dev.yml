@@ -8,7 +8,7 @@ foo: foo version 7002
 spring:
   rabbitmq:
     host: 106.12.197.38
-    port: 5672
+    port: 15672
     username: zhou
     password: 644721
 management:
