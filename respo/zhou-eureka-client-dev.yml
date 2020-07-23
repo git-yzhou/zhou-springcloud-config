@@ -16,9 +16,14 @@ spring:
     virtual-host: my_vhost
     username: zhou
     password: 644721
+# Admin 管理配置
 management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        # 开启了 'refresh' 端点
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
   
