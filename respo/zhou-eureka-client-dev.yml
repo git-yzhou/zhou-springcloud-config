@@ -21,7 +21,7 @@ spring:
    #设置Sleuth的抽样收集概率
   sleuth:
     sampler:
-      probability: 0.1
+      probability: 1.0
 # Admin 管理配置
 management:
   endpoints:
