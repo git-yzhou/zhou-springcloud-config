@@ -16,6 +16,12 @@ spring:
     virtual-host: my_vhost
     username: zhou
     password: 644721
+  zipkin:
+    base-url: http://106.12.197.38:9411
+   #设置Sleuth的抽样收集概率
+  sleuth:
+    sampler:
+      probability: 0.1
 # Admin 管理配置
 management:
   endpoints:
