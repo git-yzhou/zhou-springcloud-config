@@ -27,6 +27,8 @@ spring:
       type: rabbit
 # Admin 管理配置
 management:
+  security:
+    enabled: false
   endpoints:
     web:
       exposure:
@@ -35,9 +37,6 @@ management:
   endpoint:
     health:
       show-details: always
-management:
-  security:
-    enabled: false
 logging:
   file:
     name: "logs/boot-admin-sample.log"
