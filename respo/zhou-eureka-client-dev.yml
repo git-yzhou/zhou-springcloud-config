@@ -35,4 +35,10 @@ management:
   endpoint:
     health:
       show-details: always
+management:
+  security:
+    enabled: false
+logging:
+  file:
+    name: "logs/boot-admin-sample.log"
   
